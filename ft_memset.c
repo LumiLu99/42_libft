@@ -6,7 +6,7 @@
 /*   By: yelu <yelu@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 16:06:37 by yelu              #+#    #+#             */
-/*   Updated: 2025/10/23 21:36:39 by yelu             ###   ########.fr       */
+/*   Updated: 2025/10/25 18:32:54 by yelu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@ void	*ft_memset(void *s, int c, size_t n)
 	unsigned char	ch;
 
 	str = (unsigned char *)s;
+	ch = (unsigned char)c;
 	while (n > 0)
 	{
 		*str = ch;

@@ -6,7 +6,7 @@
 /*   By: yelu <yelu@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 11:09:17 by yelu              #+#    #+#             */
-/*   Updated: 2025/10/24 17:43:16 by yelu             ###   ########.fr       */
+/*   Updated: 2025/10/25 21:44:15 by yelu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,31 +35,31 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	return (ptr);
 }
 
-void	*ft_calloc(size_t count, size_t size)
-{
-	unsigned char	*tmp;
-	size_t			i;
+// void	*ft_calloc(size_t count, size_t size)
+// {
+// 	unsigned char	*tmp;
+// 	size_t			i;
 
-	i = 0;
-	if (count != 0 && size > UINT_MAX / count)
-		return (NULL);
-	if (count == 0 || size == 0)
-	{
-		tmp = (malloc(0));
-		if (!tmp)
-			return (NULL);
-		return (tmp);
-	}
-	tmp = malloc(count * size);
-	if (!tmp)
-		return (NULL);
-	while (i < count * size)
-	{
-		tmp[i] = 0;
-		i++;
-	}
-	return (tmp);
-}
+// 	i = 0;
+// 	if (count != 0 && size > UINT_MAX / count)
+// 		return (NULL);
+// 	if (count == 0 || size == 0)
+// 	{
+// 		tmp = (malloc(0));
+// 		if (!tmp)
+// 			return (NULL);
+// 		return (tmp);
+// 	}
+// 	tmp = malloc(count * size);
+// 	if (!tmp)
+// 		return (NULL);
+// 	while (i < count * size)
+// 	{
+// 		tmp[i] = 0;
+// 		i++;
+// 	}
+// 	return (tmp);
+// }
 
 /**
 int main()
