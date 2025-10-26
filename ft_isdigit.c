@@ -6,7 +6,7 @@
 /*   By: yelu <yelu@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 14:47:53 by yelu              #+#    #+#             */
-/*   Updated: 2025/10/23 15:38:26 by yelu             ###   ########.fr       */
+/*   Updated: 2025/10/26 19:16:56 by yelu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,4 +36,3 @@ int	ft_isdigit(int c)
 //     int result = ft_isdigit(digit);
 //     printf("Result: %d\n", result);
 // }
-

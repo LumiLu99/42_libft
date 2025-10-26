@@ -6,16 +6,16 @@
 /*   By: yelu <yelu@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 13:42:21 by yelu              #+#    #+#             */
-/*   Updated: 2025/10/23 16:27:36 by yelu             ###   ########.fr       */
+/*   Updated: 2025/10/26 19:19:37 by yelu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t ft_strlen(const char *s)
+size_t	ft_strlen(const char *s)
 {
 	size_t	i;
-	
+
 	i = 0;
 	while (s[i])
 		i++;
@@ -26,7 +26,6 @@ size_t ft_strlen(const char *s)
 // {
 // 	size_t	i;
 // 	size_t	count;
-
 // 	count = 0;
 // 	i = 0;
 // 	while (s[i])

@@ -6,7 +6,7 @@
 /*   By: yelu <yelu@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 11:46:02 by yelu              #+#    #+#             */
-/*   Updated: 2025/10/24 16:15:44 by yelu             ###   ########.fr       */
+/*   Updated: 2025/10/26 19:18:18 by yelu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@
 char	*ft_strchr(const char *s, int c)
 {
 	char	*str;
-	char		ch;
+	char	ch;
 
 	ch = (char)c;
 	str = (char *)s;

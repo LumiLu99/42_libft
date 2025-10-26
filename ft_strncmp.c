@@ -6,7 +6,7 @@
 /*   By: yelu <yelu@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 18:29:45 by yelu              #+#    #+#             */
-/*   Updated: 2025/10/24 15:42:17 by yelu             ###   ########.fr       */
+/*   Updated: 2025/10/26 19:19:57 by yelu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,4 +74,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 //     printf("%d\n", ft_strncmp(str1, str2, n));
 //     return 0;
 // }
-

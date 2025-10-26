@@ -6,7 +6,7 @@
 /*   By: yelu <yelu@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/13 10:22:37 by yelu              #+#    #+#             */
-/*   Updated: 2025/10/25 21:59:44 by yelu             ###   ########.fr       */
+/*   Updated: 2025/10/26 19:21:18 by yelu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,6 @@
 // size_t ft_strlen(const char *s)
 // {
 // 	size_t	i;
-	
 // 	i = 0;
 // 	while (s[i])
 // 		i++;
@@ -146,7 +145,7 @@
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
-	char	*new_str;
+	char		*new_str;
 	const char	*start;
 	const char	*end;
 
@@ -225,7 +224,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 // #include <stdio.h>
 // int main()
 // {
-//     char *result = ft_strtrim("\t\t\t\t\t\t\t\t\t\t\t\t\tHello, World!\nh", " \t\n");
+//     char *result = ft_strtrim("\t\t\t\t\tHello, World!\nh", " \t\n");
 //     printf("Result: '%s'\n", result);
 //     free(result);
 //     return 0;

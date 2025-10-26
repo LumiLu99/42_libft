@@ -6,7 +6,7 @@
 /*   By: yelu <yelu@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 12:03:04 by yelu              #+#    #+#             */
-/*   Updated: 2025/10/24 16:59:08 by yelu             ###   ########.fr       */
+/*   Updated: 2025/10/26 19:20:29 by yelu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,6 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 // {
 // 	size_t	i;
 // 	size_t	j;
-
 // 	i = 0;
 // 	j = 0;
 // 	if (little[0] == '\0')
@@ -75,11 +74,10 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 // 	}
 // 	return (NULL);
 // }
-
-#include <stdio.h>
-int main() 
-{
-	const char *big1 = "Heworldaaaaaaaaaaaaaaaa";
-	const char *little1 = "wor";
-	printf("Result: %s\n", ft_strnstr(big1, little1, 9));
-}
+// #include <stdio.h>
+// int main() 
+// {
+// 	const char *big1 = "Heworldaaaaaaaaaaaaaaaa";
+// 	const char *little1 = "wor";
+// 	printf("Result: %s\n", ft_strnstr(big1, little1, 9));
+// }

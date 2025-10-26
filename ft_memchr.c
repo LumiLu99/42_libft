@@ -6,7 +6,7 @@
 /*   By: yelu <yelu@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 21:35:54 by yelu              #+#    #+#             */
-/*   Updated: 2025/10/24 15:14:49 by yelu             ###   ########.fr       */
+/*   Updated: 2025/10/26 19:17:21 by yelu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,6 @@ void	*ft_memchr(const void *s, int c, size_t n)
 
 	str = (const unsigned char *)s;
 	ch = (unsigned char)c;
-
 	while (n--)
 	{
 		if (*str == ch)

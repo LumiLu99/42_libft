@@ -6,7 +6,7 @@
 /*   By: yelu <yelu@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 09:30:30 by yelu              #+#    #+#             */
-/*   Updated: 2025/10/25 18:36:56 by yelu             ###   ########.fr       */
+/*   Updated: 2025/10/26 19:25:04 by yelu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,6 @@
 // size_t ft_strlen(const char *s)
 // {
 // 	size_t	i;
-	
 // 	i = 0;
 // 	while (s[i])
 // 		i++;
@@ -171,16 +170,13 @@ char	*ft_substr(const char *s, unsigned int start, size_t len)
 //     printf("Test middle substring: '%s'\n", result);
 
 // 	// Case 9: Long string
-//     char new_str[] = "This is a very long string to test the limits of ft_substr";
+//     char new_str[] = "This is a very long string to test the";
 //     result = ft_substr(new_str, 10, 20);
 //     printf("Test long string: '%s'\n", result);
-
 //     // Case 10: Empty string
 //     result = ft_substr("", 0, 5);
 //     printf("Test empty string: '%s'\n", result);
-
 //     // Clean up
 //     free(result);
-
 //     return 0;
 // }

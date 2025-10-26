@@ -6,7 +6,7 @@
 /*   By: yelu <yelu@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 13:18:54 by yelu              #+#    #+#             */
-/*   Updated: 2025/10/24 12:52:41 by yelu             ###   ########.fr       */
+/*   Updated: 2025/10/26 19:17:35 by yelu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
 	unsigned char		*temp_des;
 	const unsigned char	*temp_src;
-	size_t					i;
+	size_t				i;
 
 	temp_des = (unsigned char *)dest;
 	temp_src = (const unsigned char *)src;

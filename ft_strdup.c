@@ -6,7 +6,7 @@
 /*   By: yelu <yelu@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:00:27 by yelu              #+#    #+#             */
-/*   Updated: 2025/10/25 18:10:34 by yelu             ###   ########.fr       */
+/*   Updated: 2025/10/26 19:24:31 by yelu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 // size_t ft_strlen(const char *s)
 // {
 // 	size_t	i;
-	
 // 	i = 0;
 // 	while (s[i])
 // 		i++;
@@ -44,7 +43,6 @@ char	*ft_strdup(const char *s)
 // 	size_t	len;
 // 	char	*dup;
 // 	size_t	i;
-
 // 	len = 0;
 // 	i = 0;
 // 	len = ft_strlen(s);
@@ -59,18 +57,31 @@ char	*ft_strdup(const char *s)
 // 	dup[i] = '\0';
 // 	return (dup);
 // }
-
-#include <stdio.h>
-int main()
-{
-	const char *str = "Hello";
-	size_t i = 0;
-	char *result = ft_strdup(str);
-	while (result[i])
-	{
-		printf("%c", result[i]);
-		i++;
-	}
-	free (result);
-	return (0);
-}
+// #include <stdio.h>
+// int main()
+// {
+// 	const char *str = "Hello";
+// 	size_t i = 0;
+// 	char *result = ft_strdup(str);
+// 	while (result[i])
+// 	{
+// 		printf("%c", result[i]);
+// 		i++;
+// 	}
+// 	free (result);
+// 	return (0);
+// }
+// #include <stdio.h>
+// int main()
+// {
+// 	const char *str = "Hello";
+// 	size_t i = 0;
+// 	char *result = ft_strdup(str);
+// 	while (result[i])
+// 	{
+// 		printf("%c", result[i]);
+// 		i++;
+// 	}
+// 	free (result);
+// 	return (0);
+// }

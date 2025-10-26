@@ -6,7 +6,7 @@
 /*   By: yelu <yelu@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 21:44:23 by yelu              #+#    #+#             */
-/*   Updated: 2025/10/24 16:30:54 by yelu             ###   ########.fr       */
+/*   Updated: 2025/10/26 19:20:45 by yelu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,13 +20,12 @@
 // size_t ft_strlen(const char *s)
 // {
 // 	size_t	i;
-	
 // 	i = 0;
 // 	while (s[i])
 // 		i++;
 // 	return (i);
 // }
- 
+
 char	*ft_strrchr(const char *s, int c)
 {
 	char	ch;

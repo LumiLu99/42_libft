@@ -6,7 +6,7 @@
 /*   By: yelu <yelu@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 15:48:07 by yelu              #+#    #+#             */
-/*   Updated: 2025/10/24 13:29:29 by yelu             ###   ########.fr       */
+/*   Updated: 2025/10/26 19:40:07 by yelu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 {
 	unsigned char	*temp_dest;
 	unsigned char	*temp_src;
-	int				i;
+	size_t			i;
 
 	if (n == 0 || dest == src)
 		return (dest);

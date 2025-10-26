@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yelu <yelu@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: yelu <yelu@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 16:29:01 by yelu              #+#    #+#             */
-/*   Updated: 2024/11/19 17:40:29 by yelu             ###   ########.fr       */
+/*   Updated: 2025/10/26 16:35:52 by yelu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 /**
 void to_uppercase(unsigned int index, char *c)
 {
-    *c = toupper(*c);  // Convert character to uppercase
+    *c = toupper(*c);
 }
 int main()
 {
