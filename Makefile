@@ -6,7 +6,7 @@
 #    By: yelu <yelu@student.42kl.edu.my>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/16 15:32:32 by yelu              #+#    #+#              #
-#    Updated: 2025/10/26 19:30:37 by yelu             ###   ########.fr        #
+#    Updated: 2025/10/26 19:53:33 by yelu             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,16 +23,18 @@ BONUS_SRC = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c \
 
 OBJS = $(SRC:.c=.o)
 
-BONUS_OBJS = $(BONUS_SRC: .c=.o)
+BONUS_OBJS = $(BONUS_SRC:.c=.o)
 
 NAME = libft.a
 
-CC = gcc
+CC = cc
 CFLAGS = -Wall -Wextra -Werror
 AR = ar rcs
 RM = rm -f
 
-%.o : %.c #Pattern rule for any c file, create o file#
+all: $(NAME)
+
+%.o: %.c #$@ target of the rule, $< first prerequisite of the rule
 	$(CC) $(CFLAGS) -c $< -o $@
 
 $(NAME): $(OBJS)
@@ -40,8 +42,6 @@ $(NAME): $(OBJS)
 
 bonus: $(OBJS) $(BONUS_OBJS)
 	$(AR) $(NAME) $(OBJS) $(BONUS_OBJS)
-
-all: $(NAME)
 
 clean:
 	$(RM) $(OBJS) $(BONUS_OBJS)
